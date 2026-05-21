@@ -1,1 +1,1 @@
-# sosi
+worker: python bot.py
