@@ -33,7 +33,7 @@ async def send_catalog(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not categories:
         await update.message.reply_text(
             (
-                "Каталог Netizen\n\n"
+                "Каталог\n\n"
                 "Каталог пока пустой.\n\n"
                 "Скоро здесь появятся товары."
             ),
@@ -62,7 +62,7 @@ async def admin_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     context.user_data["admin_logged"] = False
 
     message = await update.message.reply_text(
-        "🔐 Вход в админ-панель Netizen\n\nВведите логин:"
+        "🔐 Вход в админ-панель\n\nВведите логин:"
     )
 
     context.user_data["admin_login_prompt_id"] = message.message_id
