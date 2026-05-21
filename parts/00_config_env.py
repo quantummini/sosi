@@ -41,12 +41,12 @@ def wide_text(text):
     return f"{text}\n{WIDE_MESSAGE_PAD}"
 
 ADMIN_PANEL_TEXT = (
-    "⚙️ Админ-панель Netizen\n\n"
+    "⚙️ Админ-панель \n\n"
     "Выберите действие для управления каталогом:"
 )
 
 CATALOG_TEXT = (
-    "Каталог товаров Netizen\n\n"
+    "Каталог товаров \n\n"
     "Выберите нужную категорию из списка ниже:"
 )
 
